@@ -2,11 +2,12 @@ public class MAin {
         //Integer.toBinaryString
         public static void main(String...args){
 
-            byte a = 64;
-            byte b = (byte) ( a << 2);
-            System.out.println(b);
-            System.out.println(Integer.toBinaryString(a<<2));
-
+            int a = 42;
+            int b = 00000001;
+            int c =  (a | b);
+            System.out.println(Integer.toBinaryString(a));
+            System.out.println(Integer.toBinaryString(b));
+            System.out.println(Integer.toBinaryString(c));
         }
 
 }
