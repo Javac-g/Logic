@@ -2,11 +2,10 @@ public class MAin {
         //Integer.toBinaryString
         public static void main(String...args){
 
-                   for (char i = 'a'; i <= 'w'; i++){
-
-                       System.out.println( Integer.toBinaryString(i) );
-
-                   }
+            byte a = 64;
+            byte b = (byte) ( a << 2);
+            System.out.println(b);
+            System.out.println(Integer.toBinaryString(a<<2));
 
         }
 
